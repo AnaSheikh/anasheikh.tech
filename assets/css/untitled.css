@@ -1,0 +1,16 @@
+.caption1 {
+}
+
+a:active, a:focus, a:hover {
+  color: #54161d;
+}
+
+a:hover {
+  color: #54161d;
+  text-decoration: underline;
+}
+
+a {
+  color: #54161d;
+}
+
