@@ -13,4 +13,139 @@ a:hover {
 a {
   color: #54161d;
 }
+.skills{
+  width: 500px;
+  margin: 60px auto;
+  color: white;
+}
+.skills li{
+  margin: 20px 0;
+
+}
+.bar{
+  background: #bebebe;
+  display: block;
+  height: 10px;
+  border: 1px solid rgba(0,0,0,3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-sizing: 0 0 10px #2187e7b3;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+.bar span{
+  height: 10px;
+  float: left;
+  background: #3187e7;
+  padding-bottom: 20px;
+
+}
+.html{
+  width: 90%;
+  animation: html 2s;
+  
+
+
+}
+.css{
+  width: 80%;
+  animation: css 3s;
+}
+.javascript{
+  width: 82%;
+  animation:javascript 3s;
+
+}
+.Java{
+  width: 70%;
+  animation: java 3s;
+}
+.Node{
+  width: 75%;
+  animation: Node 3s;
+}
+.Docker{
+  width: 82%;
+  animation: Docker 3s;
+}
+.Python{
+  width: 78%;
+  animation: Python 3s;
+}
+.cplusplus{
+  width: 87%;
+  animation: cplusplus 3s;
+}
+@keyframes html
+{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+@keyframes css
+{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+@keyframes javascript
+{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 82%;
+  }
+}
+@keyframes java
+{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+@keyframes Node
+{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 75%;
+  }
+}
+@keyframes Docker
+{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 82%;
+  }
+}
+@keyframes Python
+{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 78%;
+  }
+}
+@keyframes cplusplus
+{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
 
