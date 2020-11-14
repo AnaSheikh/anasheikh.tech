@@ -47,6 +47,18 @@ a {
 
 
 }
+.Restful{
+  width: 93%;
+  animation: css 3s;
+}
+.springboot{
+  width: 85%;
+  animation: css 3s;
+}
+.Angular{
+  width:90%;
+  animation: css 3s;
+}
 .css{
   width: 80%;
   animation: css 3s;
@@ -147,5 +159,31 @@ a {
   100%{
     width: 90%;
   }
+  
+}
+@keyframes Angular {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+@keyframes springboot{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 85%;
+  }
+  
 }
 
+@keyframes Restful{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 93%;
+  }
+}
