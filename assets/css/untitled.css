@@ -49,15 +49,15 @@ a {
 }
 .Restful{
   width: 93%;
-  animation: css 3s;
+  animation: Restful 3s;
 }
 .springboot{
   width: 85%;
-  animation: css 3s;
+  animation: springboot 3s;
 }
 .Angular{
   width:90%;
-  animation: css 3s;
+  animation: Angular 3s;
 }
 .css{
   width: 80%;
